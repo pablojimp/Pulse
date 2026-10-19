@@ -1,0 +1,9 @@
+com.PabloJimenez.encore
+com.PabloJimenez.encore.config
+com.PabloJimenez.encore.controller
+com.PabloJimenez.encore.DTO
+com.PabloJimenez.encore.entity
+com.PabloJimenez.encore.repository
+com.PabloJimenez.encore.service
+com.PabloJimenez.encore.service.impl
+com.PabloJimenez.encore.util

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCORE - FESTIVALES</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="brand">
+            <div class="logo">
+                <span class="Nombre">ENCORE</span>
+                <span class="Nombre">MUSIC</span>
+            </div>
+            <div class="enlace-inicio">
+                <a href="index.html">
+                    <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 5H5V10H10V5Z" fill="#ffffff" />
+                        <path d="M19 5H14V10H19V5Z" fill="#ffffff" />
+                        <path d="M10 14H5V19H10V14Z" fill="#ffffff" />
+                        <path d="M19 14H14V19H19V14Z" fill="#ffffff" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-eventos">
+        <section class="eventos-section">
+
+            <div class="section-filtros">
+                <div class="filtro-input-wrap">
+                    <span class="filtro-label">Precio (€)</span>
+                    <input class="filtro-input" type="number" id="precio-min" placeholder="Min" min="0">
+                    <span>–</span>
+                    <input class="filtro-input" type="number" id="precio-max" placeholder="Max" min="0">
+                </div>
+
+                <div class="filtro-input-wrap">
+                    <span class="filtro-label">Numeros Dias</span>
+                    <input class="filtro-input" type="number" id="dia-min" placeholder="Min" min="0">
+                    <span>–</span>
+                    <input class="filtro-input" type="number" id="dia-max" placeholder="Max" min="0">
+                </div>
+
+                <div class="filtro-input-wrap">
+                    <span class="filtro-label">Edad</span>
+                    <select class="filtro-select" id="edad">
+                        <option value="">Cualquiera</option>
+                        <option value="0">>16 años</option>
+                        <option value="16">16-18 años</option>
+                        <option value="18">+18 años</option>
+                    </select>
+                </div>
+
+                <div class="filtro-aplicar">
+                    <button class="filtro-btn filtro-btn-aplicar" id="btn-aplicar">Buscar</button>
+                    <button class="filtro-btn filtro-btn-reset" id="btn-limpiar">Limpiar</button>
+                </div>
+            </div>
+            <div class="section-head">
+                <h2>Festivales populares</h2>
+                <span>en Granada</span>
+            </div>
+
+            <div class="cards-row" id="lista-eventos-destacados">
+            </div>
+        </section>
+    </main>
+    <script type="module" src="js/pages/festivales.js"></script>
+</body>
+
+</html>
