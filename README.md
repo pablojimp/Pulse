@@ -18,15 +18,6 @@ La parte más interesante del modelo de datos es que `Concierto` y `Festival` he
 
 Suena obvio, pero modelarlo bien con JPA requirió sus decisiones.
 
-## 📋 Video Explicativo
-`https://www.youtube.com/watch?v=-vNaFTkyl9A`
-
-- 0:00 - 1:25 Explicacion de la *estructura*
-- 1:25 - 2:20 Explicacion de la *UML*
-- 2:20 - 8:20 Explicacion y demostracion en *PostMan*
-- 8:20 - 12:20 Explicacion y demostracion del *FrontEnd*
-- 12:20 - Final Muestra de la Consola *H2*
-
 ## 📋 Consola-H2
 - Nombre : sa
 - Contraseña : (Sin contraseña)
